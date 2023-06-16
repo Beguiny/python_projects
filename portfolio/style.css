@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Dazzle Unicase';
+    src: url('C:\Users\Guilherme Roberto\Documents\GitHub\python_projects\Portifolio\Style\Fontes\37640.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    /* background: linear-gradient(90deg, #191818 12%, #BBB99E 100%); */
+    background-image: url(file:///C:/Users/Guilherme%20Roberto/Documents/GitHub/python_projects/portfolio/Style/Icones/background_image.png);
+    position: relative;
+    transform: translateY(30%); 
+}
+.nome{
+    font-size: 24px;
+    color: #f7f3f3;
+    font-family: 'Dazzle Unicase', Arial, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    padding-right: 480px;
+}
+.nome2{
+    font-size: 24px;
+    color: #f7f3f3;
+    font-family: 'Dazzle Unicase', Arial, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 300px;
+}
+
+h1{
+    text-align: justify;
+    font-size: 120px;
+    color: #f7f3f3;
+    font-family: 'Dazzle Unicase', Arial, sans-serif;
+    font-weight: bold;
+ }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    margin: 0;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.linkedin {
+    background-image: url("file:///C:/Users/Guilherme%20Roberto/Documents/GitHub/python_projects/portfolio/Style/Icones/ico_link.png");
+  }
+
+  .github {
+    background-image: url("file:///C:/Users/Guilherme%20Roberto/Documents/GitHub/python_projects/portfolio/Style/Icones/ico_git.png");
+  }
+
+  .gmail {
+    background-image: url("file:///C:/Users/Guilherme%20Roberto/Documents/GitHub/python_projects/portfolio/Style/Icones/ico_email.png");
+  }
