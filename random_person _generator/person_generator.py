@@ -14,6 +14,8 @@ try:
     usuario = response_data['username']
     telefone = response_data['phone_number']
     
+    print(response_data)
+
 except requests.exceptions.HTTPError as erro:
     if erro.response.status_code != 200:
         print("Erro ao consultar os dados na API")
